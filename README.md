@@ -1,6 +1,4 @@
-# Nextjs + Typescript + Tailwindcss のテンプレート
-
-## 使い方
+# Nextjs App Directory Template
 
 ### データ fetch をする場合は MSW を install してください。
 
