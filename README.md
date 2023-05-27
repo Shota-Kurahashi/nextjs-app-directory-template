@@ -27,3 +27,11 @@ initialize();
 // Provide the MSW addon decorator globally
 export const decorators = [mswDecorator];
 ```
+
+pacakge.json に以下を追加してください。
+
+```json
+  "msw": {
+    "workerDirectory": "public"
+  }
+```
