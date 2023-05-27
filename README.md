@@ -1,5 +1,15 @@
 # Nextjs App Directory Template
 
+### setting
+
+```bash
+pnpm install
+```
+
+```bash
+pnpm husky install
+```
+
 ### データ fetch をする場合は MSW を install してください。
 
 ```bash
@@ -32,4 +42,22 @@ pacakge.json に以下を追加してください。
   "msw": {
     "workerDirectory": "public"
   }
+```
+
+### storybook を起動する場合は以下を実行してください。
+
+```bash
+pnpm sb
+```
+
+### テストを実行する場合は以下を実行してください。
+
+```bash
+pnpm test
+```
+
+### nextjs を起動する場合は以下を実行してください。
+
+```bash
+pnpm dev
 ```
