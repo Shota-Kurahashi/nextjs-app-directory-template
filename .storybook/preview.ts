@@ -1,8 +1,10 @@
+import { TailwindStory } from "./../src/tests/storybook";
 import type { Preview } from "@storybook/react";
 import "../src/styles/tailwind.css";
 
 const preview: Preview = {
   parameters: {
+    ...TailwindStory.parameters,
     nextjs: {
       appDirectory: true,
     },
